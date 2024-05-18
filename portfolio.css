@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top left,#002aff,#ee99f5,#00fff8);
+    height: 100%;
+    width: 100%;
+}
+
+
+/* <!-- ===================== navBar Section ===================== --> */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 100px;   
+}
+
+.logo {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-caps: small-caps;
+    font-weight: 650;
+    color: #222222;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;   
+}
+.menu ul li a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222222;
+    transition: .2s all ease;
+}
+
+.menu ul li a:hover {
+    color: white;
+}
+
+/* <!-- ===================== Hero Section ===================== --> */
+
+.short-details {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-box {
+    width: 40%;
+    padding: 60px;
+}
+
+.detail p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.profession {
+    color: red;
+    font-size: 3.5rem;
+}
+
+button {
+    margin-top: 40px;
+    padding: 5px 12px;
+    border: none;
+    background-color:  red;
+    border-radius: 6px;
+    transition: .2s all ease;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px red solid;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: .2s all ease;
+}
+
+button a:hover {
+    color: red;
+}
+
+.download {
+    width: 150px;
+    height: 30px;
+}
+
+.contact {
+    width: 100px;
+    height: 30px;
+}
+
+.img {
+    height: 320px;
+    width: 320px;
+    border: #222222 solid;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: url(vivek1.jpg);
+    background-size: cover;
+}
+
+/* <!-- =========================Skill Section ================== --> */
+#skill {
+    padding-left: 23%;    
+    font-size: 3rem;
+}
+
+.skill {
+    height: 300px;
+    width: 500px;
+    border: #222222 solid;    
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 3.5rem;
+    padding: 30px 20px;
+    border-radius: 5px;
+    transition: .2s all ease;
+}
+
+.skill a:hover {
+    color: white;
+}
+
+/*<!-- ============================= skills like html =================== -->*/
+#html {
+    font-size: 1.5rem;
+    padding: 0px 90px;
+}
+
+#phtml {
+    font-size: 1.2rem;
+}
+
+#Css {
+    font-size: 1.5rem;
+    padding: 0px 90px;
+}
+
+#pcss {
+    font-size: 1.2rem;
+
+}
+
+#javascript {
+    font-size: 1.5rem;
+    padding: 0px 90px;
+}
+
+#pjavascript {
+    font-size: 1.2rem;
+}
+
+/*<!-- ============================== footer ===================== -->*/
+
+.footer-container {
+    border-top: #222222 solid 3px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30%;
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+.footer-links ul li {
+    list-style-type: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+}
+
+.footer-social ul li {
+  list-style-type: none;
+}
+
+/*<!-- ============================== contact us ========================== -->*/
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px 10px;
+    font-size: 2rem;
+}
+
+#contact a {
+    font-size: 1.2rem;
+}
+
+
+/*<!-- ============================ footer bottom ================= --> */
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+}
